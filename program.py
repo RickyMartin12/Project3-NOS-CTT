@@ -137,7 +137,7 @@ def list_csv_file():
     file_name = 'codigos_postais.csv'
     if os.path.exists(file_name):
         print("\n--- List of Postal Codes ---")
-        with open(file_name, mode='r') as file:
+        with open(file_name, mode='r', newline='', encoding='utf-8') as file:
             csv_reader = csv.reader(file)
             for row in csv_reader:
                 print(row)
