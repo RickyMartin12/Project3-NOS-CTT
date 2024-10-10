@@ -313,7 +313,7 @@ def save_results_to_csv(results):
             writer = csv.writer(file)
             # Write the headers
             if not file_exists:
-                writer.writerow(['Test', 'Group', 'Status'])
+                writer.writerow(['Class Group', 'Method', 'Status'])
 
             
             
