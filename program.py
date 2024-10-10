@@ -100,7 +100,7 @@ def codigo_postal_selected (cp4, cp3):
             distrito = first_entry.get('distrito')
             concelho = first_entry.get('concelho')
 
-            save_data_table("localhost", "root", "", "concelho_distritos", codigo_postal, concelho, distrito)
+            #save_data_table("localhost", "root", "", "concelho_distritos", codigo_postal, concelho, distrito)
 
             save_file_csv('codigos_postais.csv', codigo_postal, concelho, distrito)
 
