@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
-
+create database concelho_distritos;
 
 --
 -- Estrutura da tabela `distrito_conc_post`
