@@ -10,13 +10,6 @@ import requests
 
 api_num = "f6ef0f7e3f4f4d3fa64d56c67e639a15"
 
-def add(a, b):
-    """ Function that adds two numbers. """
-    return a + b
-
-def multiply(a, b):
-    """ Function that multiplies two numbers. """
-    return a * b
 
 
 def create_connection(host_name, user_name, user_password, db_name):
